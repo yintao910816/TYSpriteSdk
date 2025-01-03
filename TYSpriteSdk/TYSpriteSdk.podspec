@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TYSpriteSdk"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "sdks"
 
   # This description is used to generate tags and improve search results.
@@ -137,7 +137,7 @@ Pod::Spec.new do |spec|
   # 定义子模块（subspec）
   spec.subspec 'Display' do |display|
     display.name         = 'Display'
-    display.source_files = 'Display/Sources/**/*.swift'
+    display.source_files = 'Display/Display/Sources/**/*.swift'
   end
 
   #spec.subspec 'PresentationData' do |presentationData|
