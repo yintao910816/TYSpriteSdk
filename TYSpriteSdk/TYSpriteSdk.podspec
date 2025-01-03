@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TYSpriteSdk"
-  spec.version      = "1.0.8"
+  spec.version      = "1.0.9"
   spec.summary      = "sdks"
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # spec.source_files  = "TYSpriteDemo/**/*.{h,m,swift}"
+  spec.source_files  = "Classes/**/*.{h,m,swift}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -135,7 +135,7 @@ Pod::Spec.new do |spec|
 
   # 定义子模块（subspec）
   spec.subspec 'Display' do |display|
-    display.source_files = 'Display/**/*.swift'
+    display.source_files = 'Classes/Display/**/*.swift'
   end
 
 end
