@@ -139,9 +139,4 @@ Pod::Spec.new do |spec|
     display.source_files = 'Display/Display/Sources/**/*.swift'
   end
 
-  #spec.subspec 'PresentationData' do |presentationData|
-  #   presentationData.name         = 'PresentationData'
-  #   presentationData.source_files = 'PresentationData/**/*.swift'
-  #end
-
 end
