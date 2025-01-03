@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18D62AE92D280C96001B2F4B /* NativeWindowHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D62AE72D280C96001B2F4B /* NativeWindowHostView.swift */; };
+		18D62AEB2D280C9F001B2F4B /* PresentationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D62AEA2D280C9F001B2F4B /* PresentationData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18D62AD72D280C17001B2F4B /* Display.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Display.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18D62AE72D280C96001B2F4B /* NativeWindowHostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeWindowHostView.swift; sourceTree = "<group>"; };
+		18D62ABC2D280B68001B2F4B /* PresentationData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PresentationData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D62AEA2D280C9F001B2F4B /* PresentationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18D62AD42D280C17001B2F4B /* Frameworks */ = {
+		18D62AB92D280B68001B2F4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -26,34 +26,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18D62ACD2D280C17001B2F4B = {
+		18D62AB22D280B68001B2F4B = {
 			isa = PBXGroup;
 			children = (
-				18D62AD92D280C17001B2F4B /* Display */,
-				18D62AD82D280C17001B2F4B /* Products */,
+				18D62ABE2D280B68001B2F4B /* PresentationData */,
+				18D62ABD2D280B68001B2F4B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18D62AD82D280C17001B2F4B /* Products */ = {
+		18D62ABD2D280B68001B2F4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18D62AD72D280C17001B2F4B /* Display.framework */,
+				18D62ABC2D280B68001B2F4B /* PresentationData.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18D62AD92D280C17001B2F4B /* Display */ = {
+		18D62ABE2D280B68001B2F4B /* PresentationData */ = {
 			isa = PBXGroup;
 			children = (
-				18D62AE82D280C96001B2F4B /* Sources */,
+				18D62ACC2D280BC6001B2F4B /* Sources */,
 			);
-			path = Display;
+			path = PresentationData;
 			sourceTree = "<group>";
 		};
-		18D62AE82D280C96001B2F4B /* Sources */ = {
+		18D62ACC2D280BC6001B2F4B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				18D62AE72D280C96001B2F4B /* NativeWindowHostView.swift */,
+				18D62AEA2D280C9F001B2F4B /* PresentationData.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18D62AD22D280C17001B2F4B /* Headers */ = {
+		18D62AB72D280B68001B2F4B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,39 +71,40 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		18D62AD62D280C17001B2F4B /* Display */ = {
+		18D62ABB2D280B68001B2F4B /* PresentationData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18D62ADE2D280C17001B2F4B /* Build configuration list for PBXNativeTarget "Display" */;
+			buildConfigurationList = 18D62AC32D280B68001B2F4B /* Build configuration list for PBXNativeTarget "PresentationData" */;
 			buildPhases = (
-				18D62AD22D280C17001B2F4B /* Headers */,
-				18D62AD32D280C17001B2F4B /* Sources */,
-				18D62AD42D280C17001B2F4B /* Frameworks */,
-				18D62AD52D280C17001B2F4B /* Resources */,
+				18D62AB72D280B68001B2F4B /* Headers */,
+				18D62AB82D280B68001B2F4B /* Sources */,
+				18D62AB92D280B68001B2F4B /* Frameworks */,
+				18D62ABA2D280B68001B2F4B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Display;
-			productName = Display;
-			productReference = 18D62AD72D280C17001B2F4B /* Display.framework */;
+			name = PresentationData;
+			productName = PresentationData;
+			productReference = 18D62ABC2D280B68001B2F4B /* PresentationData.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18D62ACE2D280C17001B2F4B /* Project object */ = {
+		18D62AB32D280B68001B2F4B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					18D62AD62D280C17001B2F4B = {
+					18D62ABB2D280B68001B2F4B = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 				};
 			};
-			buildConfigurationList = 18D62AD12D280C17001B2F4B /* Build configuration list for PBXProject "Display" */;
+			buildConfigurationList = 18D62AB62D280B68001B2F4B /* Build configuration list for PBXProject "PresentationData" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,18 +112,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 18D62ACD2D280C17001B2F4B;
-			productRefGroup = 18D62AD82D280C17001B2F4B /* Products */;
+			mainGroup = 18D62AB22D280B68001B2F4B;
+			productRefGroup = 18D62ABD2D280B68001B2F4B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18D62AD62D280C17001B2F4B /* Display */,
+				18D62ABB2D280B68001B2F4B /* PresentationData */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18D62AD52D280C17001B2F4B /* Resources */ = {
+		18D62ABA2D280B68001B2F4B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -132,18 +133,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18D62AD32D280C17001B2F4B /* Sources */ = {
+		18D62AB82D280B68001B2F4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D62AE92D280C96001B2F4B /* NativeWindowHostView.swift in Sources */,
+				18D62AEB2D280C9F001B2F4B /* PresentationData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		18D62ADC2D280C17001B2F4B /* Debug */ = {
+		18D62AC12D280B68001B2F4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +210,7 @@
 			};
 			name = Debug;
 		};
-		18D62ADD2D280C17001B2F4B /* Release */ = {
+		18D62AC22D280B68001B2F4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,10 +269,11 @@
 			};
 			name = Release;
 		};
-		18D62ADF2D280C17001B2F4B /* Debug */ = {
+		18D62AC42D280B68001B2F4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -290,20 +292,22 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ty.Display;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ty.PresentationData;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		18D62AE02D280C17001B2F4B /* Release */ = {
+		18D62AC52D280B68001B2F4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -322,7 +326,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ty.Display;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ty.PresentationData;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -335,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18D62AD12D280C17001B2F4B /* Build configuration list for PBXProject "Display" */ = {
+		18D62AB62D280B68001B2F4B /* Build configuration list for PBXProject "PresentationData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18D62ADC2D280C17001B2F4B /* Debug */,
-				18D62ADD2D280C17001B2F4B /* Release */,
+				18D62AC12D280B68001B2F4B /* Debug */,
+				18D62AC22D280B68001B2F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18D62ADE2D280C17001B2F4B /* Build configuration list for PBXNativeTarget "Display" */ = {
+		18D62AC32D280B68001B2F4B /* Build configuration list for PBXNativeTarget "PresentationData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18D62ADF2D280C17001B2F4B /* Debug */,
-				18D62AE02D280C17001B2F4B /* Release */,
+				18D62AC42D280B68001B2F4B /* Debug */,
+				18D62AC52D280B68001B2F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 18D62ACE2D280C17001B2F4B /* Project object */;
+	rootObject = 18D62AB32D280B68001B2F4B /* Project object */;
 }

@@ -9,24 +9,25 @@
 /* Begin PBXBuildFile section */
 		0F06ACB53FB40AD71FE66B37 /* Pods_TYSpriteSdkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1D4397AB1EBC850C222001 /* Pods_TYSpriteSdkDemo.framework */; };
 		18D62A222D27EEA2001B2F4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D62A212D27EEA2001B2F4B /* AppDelegate.swift */; };
-		18D62A242D27EEA2001B2F4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D62A232D27EEA2001B2F4B /* SceneDelegate.swift */; };
 		18D62A262D27EEA2001B2F4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D62A252D27EEA2001B2F4B /* ViewController.swift */; };
 		18D62A292D27EEA2001B2F4B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18D62A282D27EEA2001B2F4B /* Base */; };
 		18D62A2B2D27EEA3001B2F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D62A2A2D27EEA3001B2F4B /* Assets.xcassets */; };
 		18D62A2E2D27EEA3001B2F4B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18D62A2D2D27EEA3001B2F4B /* Base */; };
-		18D62A562D27F570001B2F4B /* NativeWindowHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D62A472D27F570001B2F4B /* NativeWindowHostView.swift */; };
-		18D62A572D27F570001B2F4B /* Display.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18D62A4A2D27F570001B2F4B /* Display.podspec */; };
-		18D62A582D27F570001B2F4B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 18D62A4C2D27F570001B2F4B /* LICENSE */; };
-		18D62A592D27F570001B2F4B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 18D62A4E2D27F570001B2F4B /* LICENSE */; };
-		18D62A5A2D27F570001B2F4B /* TYSpriteSdk.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18D62A4F2D27F570001B2F4B /* TYSpriteSdk.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		18D62A542D27F570001B2F4B /* PBXContainerItemProxy */ = {
+		18D62ACA2D280B68001B2F4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 18D62A4B2D27F570001B2F4B /* Display.xcodeproj */;
+			containerPortal = 18D62AC62D280B68001B2F4B /* PresentationData.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 18D629D12D27D185001B2F4B;
+			remoteGlobalIDString = 18D62ABC2D280B68001B2F4B;
+			remoteInfo = PresentationData;
+		};
+		18D62AE52D280C18001B2F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D62AE12D280C17001B2F4B /* Display.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18D62AD72D280C17001B2F4B;
 			remoteInfo = Display;
 		};
 /* End PBXContainerItemProxy section */
@@ -34,18 +35,13 @@
 /* Begin PBXFileReference section */
 		18D62A1E2D27EEA2001B2F4B /* TYSpriteSdkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYSpriteSdkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D62A212D27EEA2001B2F4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18D62A232D27EEA2001B2F4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		18D62A252D27EEA2001B2F4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18D62A282D27EEA2001B2F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18D62A2A2D27EEA3001B2F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D62A2D2D27EEA3001B2F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D62A2F2D27EEA3001B2F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18D62A472D27F570001B2F4B /* NativeWindowHostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeWindowHostView.swift; sourceTree = "<group>"; };
-		18D62A4A2D27F570001B2F4B /* Display.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Display.podspec; sourceTree = "<group>"; };
-		18D62A4B2D27F570001B2F4B /* Display.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Display.xcodeproj; sourceTree = "<group>"; };
-		18D62A4C2D27F570001B2F4B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		18D62A4E2D27F570001B2F4B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		18D62A4F2D27F570001B2F4B /* TYSpriteSdk.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TYSpriteSdk.podspec; sourceTree = "<group>"; };
+		18D62AC62D280B68001B2F4B /* PresentationData.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PresentationData.xcodeproj; path = PresentationData/PresentationData.xcodeproj; sourceTree = "<group>"; };
+		18D62AE12D280C17001B2F4B /* Display.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Display.xcodeproj; path = Display/Display.xcodeproj; sourceTree = "<group>"; };
 		7CBF4BE6135EE835C38A9839 /* Pods-TYSpriteSdkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYSpriteSdkDemo.release.xcconfig"; path = "Target Support Files/Pods-TYSpriteSdkDemo/Pods-TYSpriteSdkDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AB1D4397AB1EBC850C222001 /* Pods_TYSpriteSdkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYSpriteSdkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D3F86CE5D12F5CEFA06D3C /* Pods-TYSpriteSdkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYSpriteSdkDemo.debug.xcconfig"; path = "Target Support Files/Pods-TYSpriteSdkDemo/Pods-TYSpriteSdkDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				18D62A212D27EEA2001B2F4B /* AppDelegate.swift */,
-				18D62A232D27EEA2001B2F4B /* SceneDelegate.swift */,
 				18D62A252D27EEA2001B2F4B /* ViewController.swift */,
 				18D62A272D27EEA2001B2F4B /* Main.storyboard */,
 				18D62A2A2D27EEA3001B2F4B /* Assets.xcassets */,
@@ -96,47 +91,27 @@
 			path = TYSpriteSdkDemo;
 			sourceTree = "<group>";
 		};
-		18D62A482D27F570001B2F4B /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				18D62A472D27F570001B2F4B /* NativeWindowHostView.swift */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		18D62A492D27F570001B2F4B /* Display */ = {
-			isa = PBXGroup;
-			children = (
-				18D62A482D27F570001B2F4B /* Sources */,
-			);
-			path = Display;
-			sourceTree = "<group>";
-		};
-		18D62A4D2D27F570001B2F4B /* Display */ = {
-			isa = PBXGroup;
-			children = (
-				18D62A492D27F570001B2F4B /* Display */,
-				18D62A4A2D27F570001B2F4B /* Display.podspec */,
-				18D62A4B2D27F570001B2F4B /* Display.xcodeproj */,
-				18D62A4C2D27F570001B2F4B /* LICENSE */,
-			);
-			path = Display;
-			sourceTree = "<group>";
-		};
 		18D62A502D27F570001B2F4B /* TYSpriteSdk */ = {
 			isa = PBXGroup;
 			children = (
-				18D62A4D2D27F570001B2F4B /* Display */,
-				18D62A4E2D27F570001B2F4B /* LICENSE */,
-				18D62A4F2D27F570001B2F4B /* TYSpriteSdk.podspec */,
+				18D62AE12D280C17001B2F4B /* Display.xcodeproj */,
+				18D62AC62D280B68001B2F4B /* PresentationData.xcodeproj */,
 			);
 			path = TYSpriteSdk;
 			sourceTree = "<group>";
 		};
-		18D62A512D27F570001B2F4B /* Products */ = {
+		18D62AC72D280B68001B2F4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18D62A552D27F570001B2F4B /* Display.framework */,
+				18D62ACB2D280B68001B2F4B /* PresentationData.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D62AE22D280C17001B2F4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D62AE62D280C18001B2F4B /* Display.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,6 +144,7 @@
 				18D62A1A2D27EEA2001B2F4B /* Sources */,
 				18D62A1B2D27EEA2001B2F4B /* Frameworks */,
 				18D62A1C2D27EEA2001B2F4B /* Resources */,
+				3E2417BF1E317285ADEAFBA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,8 +183,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 18D62A512D27F570001B2F4B /* Products */;
-					ProjectRef = 18D62A4B2D27F570001B2F4B /* Display.xcodeproj */;
+					ProductGroup = 18D62AE22D280C17001B2F4B /* Products */;
+					ProjectRef = 18D62AE12D280C17001B2F4B /* Display.xcodeproj */;
+				},
+				{
+					ProductGroup = 18D62AC72D280B68001B2F4B /* Products */;
+					ProjectRef = 18D62AC62D280B68001B2F4B /* PresentationData.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -219,11 +199,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		18D62A552D27F570001B2F4B /* Display.framework */ = {
+		18D62ACB2D280B68001B2F4B /* PresentationData.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PresentationData.framework;
+			remoteRef = 18D62ACA2D280B68001B2F4B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		18D62AE62D280C18001B2F4B /* Display.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Display.framework;
-			remoteRef = 18D62A542D27F570001B2F4B /* PBXContainerItemProxy */;
+			remoteRef = 18D62AE52D280C18001B2F4B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -233,19 +220,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D62A592D27F570001B2F4B /* LICENSE in Resources */,
 				18D62A2B2D27EEA3001B2F4B /* Assets.xcassets in Resources */,
-				18D62A572D27F570001B2F4B /* Display.podspec in Resources */,
-				18D62A5A2D27F570001B2F4B /* TYSpriteSdk.podspec in Resources */,
 				18D62A2E2D27EEA3001B2F4B /* Base in Resources */,
 				18D62A292D27EEA2001B2F4B /* Base in Resources */,
-				18D62A582D27F570001B2F4B /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3E2417BF1E317285ADEAFBA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TYSpriteSdkDemo/Pods-TYSpriteSdkDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TYSpriteSdkDemo/Pods-TYSpriteSdkDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TYSpriteSdkDemo/Pods-TYSpriteSdkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7280EC306C89870377AC1ACE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -276,9 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D62A262D27EEA2001B2F4B /* ViewController.swift in Sources */,
-				18D62A562D27F570001B2F4B /* NativeWindowHostView.swift in Sources */,
 				18D62A222D27EEA2001B2F4B /* AppDelegate.swift in Sources */,
-				18D62A242D27EEA2001B2F4B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +339,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -404,7 +402,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

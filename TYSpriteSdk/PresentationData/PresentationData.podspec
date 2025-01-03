@@ -14,9 +14,9 @@ Pod::Spec.new do |spec|
   #  can feel like a chore to fill in it's definitely to your advantage. The
   #  summary should be tweet-length, and the description more in depth.
   #
-  spec.name         = 'TYSpriteSdk/Display'
+  spec.name         = 'TYSpriteSdk/PresentationData'
   spec.version      = "0.0.1"
-  spec.summary      = "Display"
+  spec.summary      = "PresentationData"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Display/**/*.{h,m,swift}"
+  spec.source_files  = "PresentationData/**/*.{h,m,swift}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

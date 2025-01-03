@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "sdks demo"
 
-  spec.homepage     = "https://github.com/yintao910816/TYSpriteDemo"
+  spec.homepage     = "https://github.com/yintao910816/TYSpriteSdk"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -135,8 +135,14 @@ Pod::Spec.new do |spec|
   # spec.dependency "Moya"
 
   # 定义子模块（subspec）
-  spec.subspec 'Display' do |ss|
-   ss.source_files = 'TYSpriteSdk/Display/**/*.swift'
+  spec.subspec 'Display' do |display|
+    display.name         = 'Display'
+    display.source_files = 'Display/**/*.swift'
+  end
+
+  spec.subspec 'PresentationData' do |presentationData|
+     presentationData.name         = 'PresentationData'
+     presentationData.source_files = 'PresentationData/**/*.swift'
   end
 
 end

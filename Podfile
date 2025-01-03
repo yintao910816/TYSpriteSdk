@@ -4,7 +4,7 @@ target 'TYSpriteSdkDemo' do
 
   use_frameworks!
 
-#  pod 'TYSpriteSdk', :path => './TYSpriteSdk/Display'
-  pod 'TYSpriteSdk', :path => './TYSpriteSdk'
+#  pod 'TYSpriteSdk', :path => './TYSpriteSdk'
+  pod 'TYSpriteSdk/Display', :path => './TYSpriteSdk'
 
 end
