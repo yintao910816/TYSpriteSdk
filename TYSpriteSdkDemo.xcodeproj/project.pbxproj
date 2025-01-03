@@ -16,13 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		18D62ACA2D280B68001B2F4B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 18D62AC62D280B68001B2F4B /* PresentationData.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18D62ABC2D280B68001B2F4B;
-			remoteInfo = PresentationData;
-		};
 		18D62AE52D280C18001B2F4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 18D62AE12D280C17001B2F4B /* Display.xcodeproj */;
@@ -40,7 +33,6 @@
 		18D62A2A2D27EEA3001B2F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D62A2D2D27EEA3001B2F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D62A2F2D27EEA3001B2F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18D62AC62D280B68001B2F4B /* PresentationData.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PresentationData.xcodeproj; path = PresentationData/PresentationData.xcodeproj; sourceTree = "<group>"; };
 		18D62AE12D280C17001B2F4B /* Display.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Display.xcodeproj; path = Display/Display.xcodeproj; sourceTree = "<group>"; };
 		7CBF4BE6135EE835C38A9839 /* Pods-TYSpriteSdkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYSpriteSdkDemo.release.xcconfig"; path = "Target Support Files/Pods-TYSpriteSdkDemo/Pods-TYSpriteSdkDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AB1D4397AB1EBC850C222001 /* Pods_TYSpriteSdkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYSpriteSdkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,17 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				18D62AE12D280C17001B2F4B /* Display.xcodeproj */,
-				18D62AC62D280B68001B2F4B /* PresentationData.xcodeproj */,
 			);
 			path = TYSpriteSdk;
-			sourceTree = "<group>";
-		};
-		18D62AC72D280B68001B2F4B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				18D62ACB2D280B68001B2F4B /* PresentationData.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		18D62AE22D280C17001B2F4B /* Products */ = {
@@ -186,10 +169,6 @@
 					ProductGroup = 18D62AE22D280C17001B2F4B /* Products */;
 					ProjectRef = 18D62AE12D280C17001B2F4B /* Display.xcodeproj */;
 				},
-				{
-					ProductGroup = 18D62AC72D280B68001B2F4B /* Products */;
-					ProjectRef = 18D62AC62D280B68001B2F4B /* PresentationData.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -199,13 +178,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		18D62ACB2D280B68001B2F4B /* PresentationData.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = PresentationData.framework;
-			remoteRef = 18D62ACA2D280B68001B2F4B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		18D62AE62D280C18001B2F4B /* Display.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
