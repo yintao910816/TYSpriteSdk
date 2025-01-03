@@ -79,8 +79,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/yintao910816/TYSpriteSdk.git", :tag => "#{spec.version}" }
-
+  #spec.source       = { :git => "https://github.com/yintao910816/TYSpriteSdk.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/yintao910816/TYSpriteSdk.git", :commit => "2ac4b51080340210daec6ecbc68bfeff1dfc5279" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
