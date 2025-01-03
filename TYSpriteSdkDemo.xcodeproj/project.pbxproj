@@ -14,15 +14,17 @@
 		18D62A292D27EEA2001B2F4B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18D62A282D27EEA2001B2F4B /* Base */; };
 		18D62A2B2D27EEA3001B2F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D62A2A2D27EEA3001B2F4B /* Assets.xcassets */; };
 		18D62A2E2D27EEA3001B2F4B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18D62A2D2D27EEA3001B2F4B /* Base */; };
-		18D62A422D27EF1F001B2F4B /* NativeWindowHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D62A352D27EF1E001B2F4B /* NativeWindowHostView.swift */; };
-		18D62A432D27EF1F001B2F4B /* Display.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18D62A382D27EF1E001B2F4B /* Display.podspec */; };
-		18D62A442D27EF1F001B2F4B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 18D62A3A2D27EF1E001B2F4B /* LICENSE */; };
+		18D62A562D27F570001B2F4B /* NativeWindowHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D62A472D27F570001B2F4B /* NativeWindowHostView.swift */; };
+		18D62A572D27F570001B2F4B /* Display.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18D62A4A2D27F570001B2F4B /* Display.podspec */; };
+		18D62A582D27F570001B2F4B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 18D62A4C2D27F570001B2F4B /* LICENSE */; };
+		18D62A592D27F570001B2F4B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 18D62A4E2D27F570001B2F4B /* LICENSE */; };
+		18D62A5A2D27F570001B2F4B /* TYSpriteSdk.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18D62A4F2D27F570001B2F4B /* TYSpriteSdk.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		18D62A402D27EF1F001B2F4B /* PBXContainerItemProxy */ = {
+		18D62A542D27F570001B2F4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 18D62A392D27EF1E001B2F4B /* Display.xcodeproj */;
+			containerPortal = 18D62A4B2D27F570001B2F4B /* Display.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 18D629D12D27D185001B2F4B;
 			remoteInfo = Display;
@@ -38,10 +40,12 @@
 		18D62A2A2D27EEA3001B2F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D62A2D2D27EEA3001B2F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D62A2F2D27EEA3001B2F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18D62A352D27EF1E001B2F4B /* NativeWindowHostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeWindowHostView.swift; sourceTree = "<group>"; };
-		18D62A382D27EF1E001B2F4B /* Display.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Display.podspec; sourceTree = "<group>"; };
-		18D62A392D27EF1E001B2F4B /* Display.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Display.xcodeproj; sourceTree = "<group>"; };
-		18D62A3A2D27EF1E001B2F4B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		18D62A472D27F570001B2F4B /* NativeWindowHostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeWindowHostView.swift; sourceTree = "<group>"; };
+		18D62A4A2D27F570001B2F4B /* Display.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Display.podspec; sourceTree = "<group>"; };
+		18D62A4B2D27F570001B2F4B /* Display.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Display.xcodeproj; sourceTree = "<group>"; };
+		18D62A4C2D27F570001B2F4B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		18D62A4E2D27F570001B2F4B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		18D62A4F2D27F570001B2F4B /* TYSpriteSdk.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TYSpriteSdk.podspec; sourceTree = "<group>"; };
 		7CBF4BE6135EE835C38A9839 /* Pods-TYSpriteSdkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYSpriteSdkDemo.release.xcconfig"; path = "Target Support Files/Pods-TYSpriteSdkDemo/Pods-TYSpriteSdkDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AB1D4397AB1EBC850C222001 /* Pods_TYSpriteSdkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYSpriteSdkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D3F86CE5D12F5CEFA06D3C /* Pods-TYSpriteSdkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYSpriteSdkDemo.debug.xcconfig"; path = "Target Support Files/Pods-TYSpriteSdkDemo/Pods-TYSpriteSdkDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,7 +66,7 @@
 		18D62A152D27EEA2001B2F4B = {
 			isa = PBXGroup;
 			children = (
-				18D62A3C2D27EF1E001B2F4B /* submodoules */,
+				18D62A502D27F570001B2F4B /* TYSpriteSdk */,
 				18D62A202D27EEA2001B2F4B /* TYSpriteSdkDemo */,
 				18D62A1F2D27EEA2001B2F4B /* Products */,
 				8D54CD8667655D9A02EC4C95 /* Pods */,
@@ -92,45 +96,47 @@
 			path = TYSpriteSdkDemo;
 			sourceTree = "<group>";
 		};
-		18D62A362D27EF1E001B2F4B /* Sources */ = {
+		18D62A482D27F570001B2F4B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				18D62A352D27EF1E001B2F4B /* NativeWindowHostView.swift */,
+				18D62A472D27F570001B2F4B /* NativeWindowHostView.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		18D62A372D27EF1E001B2F4B /* Display */ = {
+		18D62A492D27F570001B2F4B /* Display */ = {
 			isa = PBXGroup;
 			children = (
-				18D62A362D27EF1E001B2F4B /* Sources */,
+				18D62A482D27F570001B2F4B /* Sources */,
 			);
 			path = Display;
 			sourceTree = "<group>";
 		};
-		18D62A3B2D27EF1E001B2F4B /* Display */ = {
+		18D62A4D2D27F570001B2F4B /* Display */ = {
 			isa = PBXGroup;
 			children = (
-				18D62A372D27EF1E001B2F4B /* Display */,
-				18D62A382D27EF1E001B2F4B /* Display.podspec */,
-				18D62A392D27EF1E001B2F4B /* Display.xcodeproj */,
-				18D62A3A2D27EF1E001B2F4B /* LICENSE */,
+				18D62A492D27F570001B2F4B /* Display */,
+				18D62A4A2D27F570001B2F4B /* Display.podspec */,
+				18D62A4B2D27F570001B2F4B /* Display.xcodeproj */,
+				18D62A4C2D27F570001B2F4B /* LICENSE */,
 			);
 			path = Display;
 			sourceTree = "<group>";
 		};
-		18D62A3C2D27EF1E001B2F4B /* submodoules */ = {
+		18D62A502D27F570001B2F4B /* TYSpriteSdk */ = {
 			isa = PBXGroup;
 			children = (
-				18D62A3B2D27EF1E001B2F4B /* Display */,
+				18D62A4D2D27F570001B2F4B /* Display */,
+				18D62A4E2D27F570001B2F4B /* LICENSE */,
+				18D62A4F2D27F570001B2F4B /* TYSpriteSdk.podspec */,
 			);
-			path = submodoules;
+			path = TYSpriteSdk;
 			sourceTree = "<group>";
 		};
-		18D62A3D2D27EF1E001B2F4B /* Products */ = {
+		18D62A512D27F570001B2F4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18D62A412D27EF1F001B2F4B /* Display.framework */,
+				18D62A552D27F570001B2F4B /* Display.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,8 +207,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 18D62A3D2D27EF1E001B2F4B /* Products */;
-					ProjectRef = 18D62A392D27EF1E001B2F4B /* Display.xcodeproj */;
+					ProductGroup = 18D62A512D27F570001B2F4B /* Products */;
+					ProjectRef = 18D62A4B2D27F570001B2F4B /* Display.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -213,11 +219,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		18D62A412D27EF1F001B2F4B /* Display.framework */ = {
+		18D62A552D27F570001B2F4B /* Display.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Display.framework;
-			remoteRef = 18D62A402D27EF1F001B2F4B /* PBXContainerItemProxy */;
+			remoteRef = 18D62A542D27F570001B2F4B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -227,11 +233,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D62A592D27F570001B2F4B /* LICENSE in Resources */,
 				18D62A2B2D27EEA3001B2F4B /* Assets.xcassets in Resources */,
-				18D62A432D27EF1F001B2F4B /* Display.podspec in Resources */,
+				18D62A572D27F570001B2F4B /* Display.podspec in Resources */,
+				18D62A5A2D27F570001B2F4B /* TYSpriteSdk.podspec in Resources */,
 				18D62A2E2D27EEA3001B2F4B /* Base in Resources */,
 				18D62A292D27EEA2001B2F4B /* Base in Resources */,
-				18D62A442D27EF1F001B2F4B /* LICENSE in Resources */,
+				18D62A582D27F570001B2F4B /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D62A262D27EEA2001B2F4B /* ViewController.swift in Sources */,
-				18D62A422D27EF1F001B2F4B /* NativeWindowHostView.swift in Sources */,
+				18D62A562D27F570001B2F4B /* NativeWindowHostView.swift in Sources */,
 				18D62A222D27EEA2001B2F4B /* AppDelegate.swift in Sources */,
 				18D62A242D27EEA2001B2F4B /* SceneDelegate.swift in Sources */,
 			);
@@ -348,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -405,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

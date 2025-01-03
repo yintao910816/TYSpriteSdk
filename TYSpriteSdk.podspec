@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/yintao910816/TYSpriteDemo.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/yintao910816/TYSpriteSdk.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -135,8 +135,8 @@ Pod::Spec.new do |spec|
   # spec.dependency "Moya"
 
   # 定义子模块（subspec）
-  spec.subspec 'TYKit' do |ss|
-   ss.source_files = 'TYKit/**/*.swift'
+  spec.subspec 'Display' do |ss|
+   ss.source_files = 'TYSpriteSdk/Display/**/*.swift'
   end
 
 end
