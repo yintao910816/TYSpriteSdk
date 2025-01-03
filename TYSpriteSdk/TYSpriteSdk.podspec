@@ -137,7 +137,7 @@ Pod::Spec.new do |spec|
   # 定义子模块（subspec）
   spec.subspec 'Display' do |display|
     display.name         = 'Display'
-    display.source_files = 'Display/**/*.swift'
+    display.source_files = 'Display/Sources/**/*.swift'
   end
 
   #spec.subspec 'PresentationData' do |presentationData|
