@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TYSpriteSdk"
-  spec.version      = "1.0.7"
+  spec.version      = "1.0.8"
   spec.summary      = "sdks"
 
   # This description is used to generate tags and improve search results.
@@ -79,8 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  #spec.source       = { :git => "https://github.com/yintao910816/TYSpriteSdk.git", :tag => "#{spec.version}" }
-  spec.source       = { :git => "https://github.com/yintao910816/TYSpriteSdk.git", :commit => "2ac4b51080340210daec6ecbc68bfeff1dfc5279" }
+  spec.source       = { :git => "https://github.com/yintao910816/TYSpriteSdk.git", :tag => "#{spec.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -136,7 +135,7 @@ Pod::Spec.new do |spec|
 
   # 定义子模块（subspec）
   spec.subspec 'Display' do |display|
-    display.source_files = 'Display/Display/Sources/**/*.swift'
+    display.source_files = 'Display/**/*.swift'
   end
 
 end
